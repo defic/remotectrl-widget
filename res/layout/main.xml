@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/ibSource" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0sp" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="left" android:id="@id/imageButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/power" android:layout_column="0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_row="0" />
+    <ImageButton android:id="@id/imageButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/source" android:layout_toRightOf="@id/imageButton1" android:layout_alignParentTop="true" />
+    <ImageButton android:id="@id/ibVolDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voldown" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/ibVolUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volup" android:layout_toRightOf="@id/ibVolDown" android:layout_alignParentTop="true" />
+</RelativeLayout>
